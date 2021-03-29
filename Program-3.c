@@ -14,15 +14,15 @@
 int main() {
 	char a[20], b[20], c[20];
 	int i, j;
-	printf("Enter the first string :%s",a);
+	printf("Enter the first string : ");
 	scanf("%s", a);
-	printf("Enter the second string :%s",b);
+	printf("Enter the second string : ");
 	scanf("%s", b);
-	for (i=0;i<20;i++ )                                                // Complete the code in for
+	for (i=0; a[i] != '\0'; i++)                                                // Complete the code in for
            { 
 		c[i] =a[i];                                              //Complete the statement
 	}
-	for (i=0;i<20;i++)                                                 // Complete the code in for
+	for (j=9; b[j]!='\0'; j++)                                                 // Complete the code in for
            { 
 		c[i] =c[i]+b[i];                                              //Complete the statement
 		i++;
